@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+body {
+    font-family: "Inter", sans-serif;
+    background: #F9FAFB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+@media only screen and (max-width:1178px)
+{
+    .hdown{
+        width: 40px;
+        height: 10px;
+        display: flex;
+    
+    }
+    .container1{
+        width: 25rem;
+    }
+    
+
+
+
+
+
+    
+}
+/* 
+List of colors used 
+
+Heading - #111827
+Sub Heading - #4B5563
+Background color - #F9FAFB
+Card's Right Section Background - #F3F4F6 
+Text's Color - #6B7280
+What's Included Horizontal line - #E5E7EB
+What's Included Text - #4F46E5
+Button Background - #1F2937
+*/
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    color: #111827;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.hdown {
+    color: #6B7280;
+
+
+}
+
+.container1 {
+       border: none;
+    width: 55rem;
+    background: #fff;
+    height: 18.3rem;
+    border-radius-left: 5px;
+}
+
+.container2 {
+    border: none;
+    width: 18rem;
+    background: #F3F4F6;
+    border-radius-right: 5px;
+    height: 18.3rem;
+
+}
+
+.main_container {
+display: flex;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 73rem;
+}
+
+.life {
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+.info {
+    margin-left: 2.5rem;
+    color: #6B7280;
+    margin-right: 2.5rem;
+}
+
+.inside {
+    margin-left: 2.5rem;
+}
+
+.list {
+    display: flex;
+}
+
+.list2 {
+    /* display: flex; */
+    /* margin-left: 20rem; */
+}
+
+.inc_head {
+    margin-left: 2.5rem;
+    font-size: small;
+    color: #4F46E5;
+
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1rem;
+    margin-left: 1rem;
+    color: #E5E7EB;
+}
+
+.include {
+    display: flex;
+
+}
+
+.im1,
+.im2,
+.im3,
+.im4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2.5rem;
+    padding: 0px;
+    color: #6B7280;
+}
+
+.im2,
+.im4 {
+    margin-top: 0rem;
+    height: 1rem;
+}
+
+.im3,
+.im4 {
+    /* margin-left: 10rem; */
+}
+
+.im_text {
+    margin-left: 0.5rem;
+}
+
+.im1 {
+    margin-left: -0.52rem;
+}
+
+.im3 {
+    margin-left: 5.9rem;
+}
+
+.im4 {
+    margin-left: 7rem;
+}
+
+.sample {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-size: small;
+    margin-top: 0.3rem;
+}
+
+.mb {
+    color: #6B7280;
+    margin-left: 0.2rem;
+    font-size: small;
+}
+
+.pay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.currency{
+    margin-left: 0.3rem;
+    color: #6B7280;
+}
+.rup{
+    /* font-weight: 100; */
+}
+.policy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    color: #6B7280;
+    text-underline-position: under;
+    margin-top: -1.5rem;
+
+}
+.button{
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-left: 1.6rem;
+    color: #fff;
+    background: #1F2937;
+    width: 15rem;
+    height: 2.6rem;
+}
+.money{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1.5rem;
+
+}
